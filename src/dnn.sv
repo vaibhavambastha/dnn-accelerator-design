@@ -1,4 +1,4 @@
-module task6(input logic CLOCK_50, input logic [3:0] KEY, // KEY[3] is async active-low reset
+module dnn(input logic CLOCK_50, input logic [3:0] KEY, // KEY[3] is async active-low reset
              input logic [9:0] SW, output logic [9:0] LEDR,
              output logic [7:0] VGA_R, output logic [7:0] VGA_G, output logic [7:0] VGA_B,
              output logic VGA_HS, output logic VGA_VS, output logic VGA_CLK,
@@ -33,4 +33,4 @@ module task6(input logic CLOCK_50, input logic [3:0] KEY, // KEY[3] is async act
                          .sdram_ras_n(DRAM_RAS_N),
                          .sdram_we_n(DRAM_WE_N),
                          .hex_export(HEX0));
-endmodule: task6
+endmodule: dnn

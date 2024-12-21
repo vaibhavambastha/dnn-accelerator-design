@@ -33,7 +33,7 @@ Implementation:
 
 ---
 
-## 🔧 Implementation Details
+## Implementation Details
 
 ### Accelerator Design
 
@@ -55,12 +55,12 @@ Implementation:
 
 ---
 
-## 🔮 Testing
+## Testing
 
 ### Hardware Testing
-- **Unit Tests**: Use `tb_rtl_dot.sv` to validate individual modules.
+- **Unit Tests**: Designed `tb_rtl_dot.sv` to validate individual modules.
 - **System Integration Tests**: Mock SDRAM and Avalon interfaces to verify end-to-end functionality.
 
 ### Software Testing
-- **Functional Verification**: Use Python or C to create a software-only implementation of the matrix-vector product for comparison.
-- **On-Hardware Debugging**: Use a DE1-SoC board with JTAG and UART for debugging and result verification.
+- **Functional Verification**: Used C to create a software-only implementation of the matrix-vector product for comparison.
+- **On-Hardware Debugging**: Used DE1-SoC board with JTAG and UART for debugging and result verification.

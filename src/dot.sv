@@ -12,10 +12,6 @@ module dot(input logic clk, input logic rst_n,
 
 
 
-
-   // your code here
-
-
 /*
    word offset meaning
 0   write: starts accelerator; read: stalls and provides result
